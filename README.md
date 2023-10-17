@@ -11,11 +11,11 @@ El proyecto fue creado con  **HTML Y CSS** se trata del navegador más usado: la
 
 
 ## Contenido del proyecto
-1. Header
+1. Header:
 Muestra el menú y foto de perfil.
-2. Main
+2. Main:
 Contiene los elementos centrales del buscador.
-3. Footer
+3. Footer:
 Incluye hipervínculos al final de la página.
 
 Realizado por Jimena Deniz Ruiz. 
