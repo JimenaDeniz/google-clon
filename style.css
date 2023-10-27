@@ -27,36 +27,52 @@ a{
     cursor: pointer;
 }
 .nav-right-section a{
-    margin-right: 25px;
+    margin-right: 18px;
     color: black;
 }
+
+.nav-right-section .menu-icon{
+    background-image: url("https://img.icons8.com/ios-glyphs/90/000000/circled-menu.png");
+    width: 20px; 
+    height: 20px;
+    background-size: contain;
+}
+.nav-right-section img {
+    margin-left: 18px;
+    border-radius: 60px;
+    width: 30px;
+    height: 30px; 
+}
+
 main{
-    margin: 50px;
+    margin: 120px ;
     text-align: center;
 }
-.main-logo{
-    width: auto;
-    height: 100%; 
-    margin: 35px;
-    margin-bottom: 0px; 
-    align-items: center;
-
-}
-
-.main-input{
+.main-logo{ 
     width: 530px;
     margin: 0 auto;
     margin-bottom: 35px;
+    
+}
+.main-logo img{ 
+    width: 430px;
+}
+.main-input{
+    margin: 0 auto;
+    width: 530px; 
+    margin-bottom: 35px;
+
 }
 .main-input-container{
     width: 525px;
-    border: 1px solid #dfe1e5;
+    border: 1px solid #dfe3e6;
     border-radius: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
-main .main-input-container input{
+.main-input-container input {
     border: none;
     width: 530px;
     height: 40px;
@@ -65,10 +81,10 @@ main .main-input-container input{
 .main-input-container:hover{
     box-shadow: 0 1px 6px 0px #20212447;
     border-color: #dfe1e5;
-}
 
+}
 .search-icon{
-    background-image:url("https://seekicon.com/free-icon-download/search_20.svg");
+    background-image: url("https://seekicon.com/free-icon-download/search_20.svg");
     width: 15px;
     height: 15px;
     background-repeat: no-repeat;
@@ -84,20 +100,19 @@ main .main-input-container input{
     background-position: center;
     background-size: contain;
     padding-right: 8%;
+
 }
 .cam-icon{
     background-image: url("https://static.wikia.nocookie.net/logopedia/images/2/2b/Google_Lens_2021.svg");
-    width: 18px;
-    height: 18px;
+    width: 17px;
+    height: 17px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-
     padding-right: 8%;
 }
-
 .main-buttons div{
-    display: inline-block
+    display:inline-block;
 }
 .main-buttons button{
     border: none;
@@ -105,15 +120,16 @@ main .main-input-container input{
     background-color: #f8f9fa;
     font-size: 14px;
     color: #3c4043;
-    border-radius: 2px solid #f8f9fa;
+    border-radius: 1px solid #f8f9fa;
     margin-right: 10px;
 }
 .main-buttons button:hover{
-    box-shadow: 0 1px 3px rgba(0, 0, 0, .1);
-    border: 1px solid #dadce0;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 1);
+    border: 2px solid #dadce0;
     color: #202124;
-    cursor:pointer;
+    cursor: pointer;
 }
+
 footer{
     background-color: #f2f2f2;
     width: 100%;
